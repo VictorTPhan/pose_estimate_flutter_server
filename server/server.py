@@ -67,7 +67,6 @@ def process_videos(video):
         else:
             continue
         out.write(image)
-        
 
         if cv2.waitKey(5) & 0xFF == 27:
             break
